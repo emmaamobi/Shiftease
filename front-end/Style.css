@@ -1,0 +1,13 @@
+html,body{height: 100%
+}
+
+#top{
+    text-align: center;
+    height: 50%;
+    background-color:#ff6666;
+}
+#bottom{
+    text-align: center;
+    height: 50%;
+    background-color: #6fdcdc;
+}
