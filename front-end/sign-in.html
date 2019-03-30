@@ -12,7 +12,7 @@
 </head>
 
 <body>
- <section class="hero is-fullheight">
+    <section class="hero is-fullheight">
         <div class="hero-body">
             <div class="container has-text-centered">
                 <div class="column is-4 is-offset-4">
@@ -22,38 +22,59 @@
                         <!-- <figure class="avatar">
                             <img src="https://placehold.it/128x128">
                         </figure> -->
-                        <form>
-                            <div class="field">
-                                <div class="control">
-                                    <input class="input is-large" type="email" placeholder="Your Email" autofocus="">
+                        <div class="dropdown is-hoverable">
+                            <div class="dropdown-trigger">
+                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+                                    <span>Usertype</span>
+                                    <span class="icon is-small">
+                                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                                <div class="dropdown-content">
+                                    <a href="#" class="dropdown-item">
+                                        Manager
+                                    </a>
+                                    <a class="dropdown-item">
+                                        Employee
+                                    </a>
                                 </div>
                             </div>
-
-                            <div class="field">
-                                <div class="control">
-                                    <input class="input is-large" type="password" placeholder="Your Password">
-                                </div>
-                            </div>
-                            <div class="field">
-                                <label class="checkbox">
-                  <input type="checkbox">
-                  Remember me
-                </label>
-                            </div>
-                            <button class="button is-block is-info is-large is-fullwidth">Login</button>
-                        </form>
+                        </div>
                     </div>
-                    <p class="has-text-grey">
-                        <a href="../">Sign Up</a> &nbsp;·&nbsp;
-                        <a href="../">Forgot Password</a> &nbsp;·&nbsp;
-                        <a href="../">Need Help?</a>
-                    </p>
+                    <form>
+                        <div class="field">
+                            <div class="control">
+                                <input class="input is-large" type="text" placeholder="Username" autofocus="">
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <div class="control">
+                                <input class="input is-large" type="password" placeholder="Your Password">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="checkbox">
+                                <input type="checkbox">
+                                Remember me
+                            </label>
+                        </div>
+                        <button class="button is-block is-info is-large is-fullwidth">Login</button>
+                    </form>
                 </div>
+                <p class="has-text-grey">
+                    <a href="../">Sign Up</a> &nbsp;·&nbsp;
+                    <a href="../">Forgot Password</a> &nbsp;·&nbsp;
+                    <a href="../">Need Help?</a>
+                </p>
             </div>
         </div>
-</section>
+        </div>
+    </section>
 
-    
+
     <!-- <div class="columns">
         <div class="columns">
             <div class="column">
